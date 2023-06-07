@@ -1,0 +1,33 @@
+<div class="row">
+  <div
+    class="
+      element1
+      d-fluid
+      col-md-4
+      d-flex
+      justify-content-center
+      align-items-center
+    "
+  >
+    <img
+      src="{{ offer.imagePath }}"
+      class="img-fluid"
+      width="100%"
+      height="100%"
+    />
+  </div>
+  <div class="element2 col-md-6 div-fluid">
+    <h3 class="m-0">{{ offer.title }}</h3>
+    <p class="m-0">{{ offer.location }}</p>
+    <p class="rateOffer">{{ randomRate }}/5</p>
+    <ul>
+      <li>{{ offer.description }}</li>
+    </ul>
+    <button class="btn btn-success mx-1 px-4">Edit</button>
+    <button class="btn btn-danger mx-1 px-4">Delete</button>
+  </div>
+  <div class="p-1 element3 col-md-2 div-fluid">
+    <h4>{{ offer.rate }} PLN/os</h4>
+    <a class="btn btn-primary px-4" (click)="onSelected()"> More Info </a>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.backdrop {
+  position: static;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 2000px;
+  max-height: 200%;
+  z-index: 50;
+}
+
+.add-offer-box {
+  position: absolute;
+  top: 2vh;
+  left: 5vw;
+  width: 90vw;
+  z-index: 100;
+  background-color: white;
+  height: auto; /* na chwileczke */
+  padding: 2vw;
+}
+
+.menu-add-offer-box {
+  width: 85vw;
+  height: auto;
+}
+
+.exit-box {
+  text-align: right;
+  width: 85vw;
+  background-color: none;
+}
+
+.exit-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: black;
+}

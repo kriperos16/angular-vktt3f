@@ -1,0 +1,46 @@
+Co zrobiliśmy albo zrobimy w swoim czasie:
+
+- wyświetlanie więcej informacji (31.05)
+- zrobienie oprogramowania, które służyło do podlączenia podstron i szybkiego  przemieszczania się po nich (31.05)
+- zrobienie pola logowania i rejestrowania (02.06)
+- edycja ofert i ich usuwanie i dodawanie (01.06)
+- pole wyszukiwania ofert (01.06)
+- podłączenie bazy danych do mojego projektu (02.06)
+
+
+31.05.2023
+
+Temat: Wyświetlanie ofert, podłączenie podstron oraz szybkiego podłączania się po nich w mojej aplikacji 
+
+Czynności: 
+
+- wyświetlanie więcej informacji
+- zrobienie oprogramowania, które służylo do podłączenia podstron i szybkiego przemieszczania się po nich
+
+Tego dnia w mojej aplikacji dodałem komponent do wyświetlania szczegółowych informacji o ofertach. W późniejszym czasie zaprogramowałem wyświetlanie ofert w tym komponencie. Napisałem skrypt, który po kliknięciu przycisku More Info wyświetla komponent z tymi szczegółowymi ofertami. Zaprogramowałem też szybkie przemieszczanie się pomiędzy podstronami.
+
+
+01.06.2023
+
+Temat: Zrobienie modyfikowania, dodawania, wyszukiwania ofert i możliwość ich usuwania w mojej aplikacji
+
+
+Czynności:
+
+- edycja ofert i ich usuwanie i dodawanie
+- pole wyszukiwania ofert
+
+Tego dnia zrobiłem pola edycji, usuwania i modyfikowania ofert. Jak już tą rzecz zrobiłem do zasiadłem do zaprogramowania tych rzeczy. 
+
+
+02.06.2023
+
+Temat: Zrobienie logowania i rejestrowania użytkowników i podłączenie bazy w moim projekcie 
+
+Czynności: 
+
+- zrobienie pola logowania i rejestrowania
+- podłączenie bazy danych do mojego projektu 
+
+<krotki_opis>
+

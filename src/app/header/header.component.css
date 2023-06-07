@@ -1,0 +1,24 @@
+.navbar-toggler {
+  border: none;
+  border-radius: 0;
+  background-color: none;
+  padding: 0;
+}
+
+.b {
+  color: black;
+}
+
+.menu {
+  float: left;
+}
+
+div.navbar {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #fefefe;
+  border-bottom: 1px solid black;
+}

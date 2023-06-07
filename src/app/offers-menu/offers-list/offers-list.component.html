@@ -1,0 +1,8 @@
+<div class="col-sm-11 mt-4 m-auto p-2">
+  <h3>Znalezione oferty ({{ qualityOffer }})</h3>
+  <app-offers-item
+    *ngFor="let offer of offers"
+    [offer]="offer"
+    (offerSelected)="onOfferSelected(offer)"
+  ></app-offers-item>
+</div>

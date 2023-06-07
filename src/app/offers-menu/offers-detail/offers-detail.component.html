@@ -1,0 +1,48 @@
+<div
+  class="mx-5 mt-4 border border-dark py-2"
+  style="background-color: #fefefe; color: black;"
+>
+  <div class="mx-4 d-flex justify-content-end">
+    <button class="exit-button" routerLink="/offers-menu">
+      <i class="bi bi-x"></i>
+    </button>
+  </div>
+  <div
+    class="mx-4 d-flex justify-content-center mb-2 border-bottom border-dark"
+  >
+    <img
+      src="{{ offer.imagePath }}"
+      alt="{{ offer.title }}"
+      class="img-fluid img-thumbnail img-responsive"
+    />
+  </div>
+  <div class="row mx-4">
+    <div class="col-md-8 border-right border-dark">
+      <h2 class="mb-0">{{ offer.title }}</h2>
+      <p class="mt-0">Lokalizacja: {{ offer.location }}</p>
+      <p class="my-2">Opis oferty</p>
+      <p>{{ offer.content }}</p>
+      <p class="my-2">Atuty oferty:</p>
+      <p>{{ offer.description }}</p>
+      <p class="my-2">
+        Ilość osób oglądających tą ofertę: {{ quanlityPeople }}
+      </p>
+    </div>
+    <div class="col-md-4 d-flex align-items-end justify-content-end">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Ocena:</p>
+          <p>Dorosły:</p>
+        </div>
+        <div class="col-sm-6">
+          <p class="rateOffer">{{ randomRate }}/5</p>
+          <h1>{{ offer.rate }}</h1>
+          <h6>PLN/os</h6>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-danger px-5">Rezerwuj</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

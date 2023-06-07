@@ -1,0 +1,153 @@
+<nav class="navbar navbar-expand-lg bg-body-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/menu">Apper</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/add-offers"
+            ><span class="bi bi-plus">Dodaj ofertę</span></a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#ListaUlubionych">Ulubione</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Logowanie
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Zaloguj się</a></li>
+            <li><a class="dropdown-item" href="#">Zarejestruj się</a></li>
+            <li>
+              <a class="dropdown-item" routerLink="/offers-menu"
+                >Strona z ofertami</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"
+            ><span class="bi bi-search">Wyszukaj</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Ponizsze menu powinno byc na stronie ale cos nie dziala :/ 
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <nav class="nav justify-content-left col-sm-6">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            Apper - Biuro podróży
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lista ulubionych</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Logowanie
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#LoginComponent"
+                    >Zaloguj się</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#RegisterComponent"
+                    >Zarejestruj się</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="navbar-brand fs-2 ms-4" href="#">Apper</a>
+    </nav>
+
+    <nav class="nav justify-content-right col-sm-6">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#AddOfferComponent"
+            ><span class="b bi-plus display-6"></span
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SearchComponent"
+            ><span class="b bi-search display-6"></span
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#LikeComponent"
+            ><span class="b bi-heart display-6"></span
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#LoginAndLogoutComponent"
+            ><span class="b bi-person-circle display-6"></span
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>
+
+-->

@@ -1,0 +1,6 @@
+<app-header></app-header>
+<app-offers-detail
+  *ngIf="selectedOffer"
+  [offer]="selectedOffer"
+></app-offers-detail>
+<app-offers-list (offerWasSelected)="selectedOffer = $event"></app-offers-list>
